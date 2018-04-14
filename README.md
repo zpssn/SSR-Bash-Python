@@ -29,8 +29,8 @@ ShadowsocksR多用户管理脚本（基于官方mujson版本）
 - 无法删除最后一名用户（官方限制）
 - 未设置开机启动
 
-## 替换安装法
-正在使用原地址下载的脚本又不想丢失数据？
+## 安装前准备
+先执行以下动作下载一下文件
 `cd /usr/local/ && rm -rf SSR-Bash-Python && git clone https://github.com/zpssn/SSR-Bash-Python.git &&rm -f /usr/local/bin/ssr && cp SSR-Bash-Python/ssr /usr/local/bin/ssr &&chmod a+x /usr/local/bin/ssr`
 
 ## 安装 ##
